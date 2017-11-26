@@ -12,13 +12,16 @@ Install either GNU Octave or MATLAB. Instruction is provided for GNU Octave as
 Octave is free and open source, whereas MATLAB requires a purchased license.
 
 ### GNU Octave
-Download the installer appropriate for your platform (here)[https://www.gnu.org/software/octave/#install].
+Download the installer appropriate for your platform [here](https://www.gnu.org/software/octave/#install).
 Run the installer and proceed through the installation process (use the default
   options unless you have other needs).
 
 Run GNU Octave and proceed through the "Welcome to Octave!" prompts. When that's
-finished, Octave will open to a new Command Window.
+finished, Octave will open to a new *Command Window*.
 
 ### Project Setup
 If you haven't already, clone this repository or download and extract it as an
 archive.
+
+Navigate to the root of the cloned/downloaded repository using the *File Browser*
+window within the Octave program, to the left of the *Command Window*.
