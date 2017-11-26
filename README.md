@@ -25,3 +25,19 @@ archive.
 
 Navigate to the root of the cloned/downloaded repository using the *File Browser*
 window within the Octave program, to the left of the *Command Window*.
+
+
+### Developer Notes
+The gsvd function found in MATLAB and the Octave `linear-algebra` package are
+slightly different. Notably, returned value order differs, requiring special
+handling to ensure compatibility between MATLAB and Octave.
+
+MATLAB
+```matlab
+[U,V,X,C,S] = gsvd(A,B)
+```
+
+Octave `linear-algebra`
+```matlab
+[u, v, c, s, x [, r]] = gsvd (a, b)
+```
