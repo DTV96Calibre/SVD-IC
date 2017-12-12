@@ -8,8 +8,8 @@ decomposition of the image as a matrix. This project uses MATLAB.
 ## Project Setup
 If you don't already have MATLAB installed, install it now.
 
-If you haven't already, clone this repository or download and extract it as an
-archive.
+If you haven't already, clone this repository (https://github.com/DTV96Calibre/SVD-IC)
+or download and extract it as an archive.
 
 Open the script `main.m` with MATLAB. Be sure to double click on the project folder
 in MATLAB's "Current Folder" panel so that MATLAB recognizes it as being on it's path.
